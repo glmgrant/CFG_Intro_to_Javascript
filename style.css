@@ -15,6 +15,15 @@ body{
     border-radius: 10px;
     padding: 30px;
 }
+.pics{
+    padding-bottom: 20px;
+}
+#question_pics{
+    display: block;
+    margin: auto;
+    height: 150px;
+    border-radius: 10px;
+}
 .app h1{
     font-size: 25px;
     color: #001e4d;
