@@ -44,7 +44,7 @@
         ]
         },
         {
-        question: "The Boat Race is an annual event between which 2 universities?",
+        question: "The Boat Race is an annual event between which two universities?",
         answers: [
             {text: "Oxford and Cambridge", correct: true},
             {text: "Durham and Newcastle", correct: false},
@@ -70,3 +70,27 @@
             {text: "90", correct: false},
         ]
         },
+        {
+        question: "What year did Leicester City win the premier league?",
+        answers: [
+            {text: "2014", correct: false},
+            {text: "2015", correct: false},
+            {text: "2016", correct: true},
+            {text: "2017", correct: false},
+        ]
+        },
+        {
+        question: "What is the term for a score of 1 over par on a golf hole?",
+        answers: [
+            {text: "Bogey", correct: true},
+            {text: "Puffin", correct: false},
+            {text: "Eagle", correct: false},
+            {text: "Albatross", correct: false},
+        ]
+        }
+
+
+
+
+
+

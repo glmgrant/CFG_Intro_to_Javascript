@@ -9,7 +9,7 @@ const questions = [
         ]
         },
         {
-        question: "What number shirt is worn by a fullback in rugby union?",
+        question: "What number shirt is worn by a fullback in Rugby Union?",
         answers: [
             {text: "1", correct: false},
             {text: "15", correct: true},
@@ -18,7 +18,7 @@ const questions = [
         ]
         },
         {
-        question: "Which French city is known for its 24 hour motor race?",
+        question: "Which French city is known for its 24-hour Motor race?",
         answers: [
             {text: "Lyon", correct: false},
             {text: "Toulouse", correct: false},
@@ -45,7 +45,7 @@ const questions = [
         ]
         },
         {
-        question: "The Boat Race is an annual event between which 2 universities?",
+        question: "The Boat Race is an annual event between which two Universities?",
         answers: [
             {text: "Oxford and Cambridge", correct: true},
             {text: "Durham and Newcastle", correct: false},
@@ -54,7 +54,7 @@ const questions = [
         ]
         },
         {
-        question: "Which sport takes place in a velodrome?",
+        question: "Which sport takes place in a Velodrome?",
         answers: [
             {text: "Swimming", correct: false},
             {text: "Boxing", correct: false},
@@ -69,6 +69,24 @@ const questions = [
             {text: "100", correct: false},
             {text: "60", correct: true},
             {text: "90", correct: false},
+        ]
+        },
+        {
+        question: "What year did Leicester City win the premier league?",
+        answers: [
+            {text: "2014", correct: false},
+            {text: "2015", correct: false},
+            {text: "2016", correct: true},
+            {text: "2017", correct: false},
+        ]
+        },
+        {
+        question: "What is the term for a score of 1 over par on a Golf hole?",
+        answers: [
+            {text: "Bogey", correct: true},
+            {text: "Puffin", correct: false},
+            {text: "Eagle", correct: false},
+            {text: "Albatross", correct: false},
         ]
         }
 ];
