@@ -71,7 +71,7 @@ h2 {
 }
 .btn:hover {
     cursor: pointer;
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(34, 34, 34);
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(128, 114, 114);
     transition: transform 150ms;
     transform: scale(1.03);
 }
@@ -86,7 +86,7 @@ h2 {
 } 
 
 #highscore-btn:hover {
-    box-shadow: 0 0.4rem 1.4rem 0 rgba(34, 34, 34)
+    box-shadow: 0 0.4rem 1.4rem 0 rgb(128, 114, 114)
 }
 
 .fa-medal {
