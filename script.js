@@ -535,8 +535,8 @@ function showScore() {
   picElement.style.height = "200px";
   questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
   confetti.setCount(250);
-  //  questionElement.innerHTML = localStorage.setItem("mostRecentScore", score)
-  // return window.location.assign("http://127.0.0.1:5500/tryprojectquiz2/end.html");
+  //  questionElement.innerHTML = localStorage.setItem("mostRecentScore", score) The link doest work with the confetty. 
+  // return window.location.assign("http://127.0.0.1:5500/tryprojectquiz2/end.html"); 
 }
 function handleNextButton() {
   currentQuestionIndex++;
