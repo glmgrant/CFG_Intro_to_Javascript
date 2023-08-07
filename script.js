@@ -185,8 +185,10 @@ function showScore(){
     picElement.alt = "Trophy";
     picElement.style.height = '200px';
     questionElement.innerHTML = `You scored ${score} out of ${questions.length}!`;
-    nextButton.innerHTML = "Play Again";
-    nextButton.style.display = "block";
+     questionElement.innerHTML = localStorage.setItem("mostRecentScore", score)
+    return window.location.assign("http://127.0.0.1:5500/tryprojectquiz2/end.html");
+    //nextButton.innerHTML = "Play Again";
+    //nextButton.style.display = "block";
     sportConfetti.src = "https://cdn.jsdelivr.net/npm/tsparticles-confetti@2.11.0/tsparticles.confetti.bundle.min.js";
     setTimeout(shoot, 0);
     setTimeout(shoot, 250);
