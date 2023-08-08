@@ -252,7 +252,7 @@ function selectAnswer(e) {
 
 function showScore() {
   localStorage.setItem("mostRecentScore", score)
-  return window.location.assign("http://127.0.0.1:5500/end.html"); 
+  return window.location.assign("end.html"); 
 }
 function handleNextButton() {
   currentQuestionIndex++;
