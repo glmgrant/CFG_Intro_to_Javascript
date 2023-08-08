@@ -287,26 +287,16 @@ const highScores = JSON.parse(localStorage.getItem("highScores")) || []
 
 const MAX_HIGH_SCORES = 5
 
+const saveButton = document.getElementById("saveScoreBtn");
+
+const confetti = new Confetti("finalScore");
+confetti.setCount(250);
+
 finalScore.innerText = mostRecentScore
 
 username.addEventListener("keyup", () => {
     saveScoreBtn.disabled = !username.value
 })
-const confetti = new Confetti("finalScore");
-// const confetti = new Confetti("finalScore");
-// confetti.setCount(250);
-
-document.addEventListener("DOMContentLoaded", function () {
-    // This function will be executed when the page content is loaded
-    
-    confetti.setCount(250);
-    
-    // Start the confetti animation immediately
-    confetti.update(new Date().getTime());
-  });
-
-
-const saveButton = document.getElementById("saveScoreBtn");
 
 saveButton.addEventListener("click", () => {
     saveHighScore(mostRecentScore, username.value)
